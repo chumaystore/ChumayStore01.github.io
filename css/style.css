@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: serif;
+}
+a{
+	color: inherit;
+	text-decoration: 0;
+}
+.medsos{
+	padding: 20px 0;
+	background-color: lightpink;
+}
+.medsos ul li{
+	display: inline-block;
+	color: black;
+	margin-right: 15px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+header{
+	
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: red;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 15px 10px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: lightpink;
+	color: black;
+}
+.active{
+	background-color: lightpink;
+	color: black;
+}
+.banner{
+	height: 60vh;
+	width: 60vh;
+	background-image: url(../img/banner.JPG);
+	background-size: cover;
+	background-color: transparent;
+	margin-top: 70px;	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	.banner{
+	height: 60vh;
+	width: 60vh;
+	background-image: url(../img/banner.JPG);
+	background-size: cover;
+	background-color: transparent;
+	margin-top: 70px;	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	bottom: 0;
+	background-color: lightpink;
+	background-color: transparent;
+
+}
+section h3{
+	text-align: center;
+	margin-top: 25px;
+	font-size: 15pt;
+	color: red;
+}
+footer{
+	padding: 40px 0;
+}
+.contact {
+	padding: 70px 0;
+}
